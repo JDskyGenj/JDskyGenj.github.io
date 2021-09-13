@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <form method="post">
+        账号：<input type="text" /><br />
+        密码：<input type="password" /><br />
+        <input type="reset" value="重置" />
+    </form>
+
+    <form method="post">
+        性别:
+        <input type="radio" name="gender" value="男" checked />男
+        <input type="radio" name="gender" value="女" />女
+    </form>
+</body>
+
+<body>
+    <form method="post">
+        爱好：<br/>
+        <input type="checkbox" name="H" value="Switch" checked />Switch
+        <input type="checkbox" name="H" value="PC"/>PC
+        <input type="checkbox" name="H" value="PS5" checked />PS5
+        <input type="checkbox" name="H value="Xbox"/>Xbox
+    </form>
+
+    <form method="post">
+        <input type="file" />
+    </form>
+    
+    <form method="post">
+        <input type="button" value="按了没反应的按钮" />
+    </form>
+
+    <form method="post">
+        Try：<br/>
+        <textarea rows="5" cols="20">Dont be shy</textarea>
+    </form>
+
+    <form method="post">
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>jQuery</option>
+            <option>JavaScript</option>
+            <option>Vue.js</option>
+        </select>
+    </form>
+
+</body>
+
+</html>
